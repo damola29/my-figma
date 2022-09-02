@@ -67,6 +67,10 @@ span{
     background: black;
 }
 
+.page-1{
+ display: flex;   
+ align-items: center;
+}
 
 .wrapper{
     padding: 50px;
@@ -81,4 +85,146 @@ span{
     height: 400px;
     width: 400px;
 
+}
+
+.page-2{
+    background-color: #f6f6f6;
+    height: 380px;
+    width: max-content;
+
+}
+
+.page-2 .over{
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    color: #111;
+}
+.page-2 .img{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+}
+.pic{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f6f6f6;
+}
+
+.boxes{
+    background: white;
+}
+
+.web-of{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: rgb(24, 24, 141);
+    
+}
+
+.container-box{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box{
+    width: 350px;
+    height: 180px;
+    background: white;
+    box-shadow: 1px 6px 15px 6px rgb(50, 50, 112);
+    border-radius: 30px;
+    justify-self: center;
+    margin: 25px 130px 35px 130px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.num{
+    width: 30px;
+    height: 30px;
+    background: rgb(26, 26, 121);
+    color: white;
+    border-radius: 65%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.paragraph{
+    font-style: italic;
+}
+
+.page-3{
+    background-color: white;
+}
+
+.hitches{
+    text-align: center;
+    color: black;
+    font-family: serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.noone{
+    color: rgb(35, 35, 201);
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+
+}
+
+.img-center{
+    text-align: center;
+}
+
+.boxxx{
+    width: 350px;
+    height: 180px;
+    background: rgb(206, 206, 216);
+    box-shadow: 1px 6px 15px 6px rgb(119, 119, 133);
+    border-radius: 30px;
+    justify-self: center;
+    margin: 20px 110px 30px 110px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.b-head{
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    background: rgb(206, 206, 216);
+    color: black;
+    
+}
+
+.b-head span{
+    background: rgb(206, 206, 216);
+}
+
+.para{
+    font-style: italic;
+    font-size: 16px;
+    color: black;
+    line-height: 13px;
+    background: rgb(206, 206, 216);
+}
+
+.para span{
+    background: rgb(206, 206, 216);
 }
